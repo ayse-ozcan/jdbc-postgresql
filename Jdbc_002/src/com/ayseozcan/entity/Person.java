@@ -9,12 +9,20 @@ public class Person {
     private String email;
     private Date joinedDate;
 
+    public  Person(){
 
+    }
     public Person(String firstName, String lastName, String email, Date joinedDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.joinedDate = joinedDate;
+    }
+
+    public Person(String firstName, String lastName, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
     }
 
     public int getId() {

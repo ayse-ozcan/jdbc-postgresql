@@ -16,4 +16,16 @@ public class PersonController {
     public void getAllPerson(){
         personService.getAllPerson();
     }
+    public void deleteAllRecords(){
+        personService.deleteAllRecords();
+    }
+    public void updateEmail(String email, int id){
+        personService.updateEmail(email, id);
+    }
+    public void getPersonById(int id){
+        personService.getPersonById(id);
+    }
+    public void deletePerson(int id){
+        personService.deletePerson(id);
+    }
 }
